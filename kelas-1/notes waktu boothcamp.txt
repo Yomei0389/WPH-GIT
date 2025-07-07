@@ -1,0 +1,8 @@
+block level : ngeblok sebaris
+in line level (spans) : di stabilo yang perlu saja
+
+ <a href : link yang mau diklik > klik dsini </a>
+
+lihat syntax HTML : 
+1)www.w3schools.com
+2) https://www.tutorialrepublic.com/html-tutorial/html-links.php

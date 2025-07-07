@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class 2- formulir</title>
+  </head>
+  <body>
+    <form>
+      <!--validation-->
+      <input type="email" placeholder="masukan email" required maxlength="8" />
+      <input type="number" maxlength="5" />
+      <button type="button">submit</button>
+
+      <br />
+      <!--labels-->
+      <label for="email">email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="masukan email anda"
+      />
+      <br />
+      <br />
+      <!--radiobutton-->
+      <label for="gender">hobby:</label>
+      <input type="radio" name="gender" />male
+      <input type="radio" name="gender" />female
+
+      <br />
+      <br />
+
+      <!--checkbutton-->
+      <label for="hobby">hobby</label>
+      <input type="checkbox" />basket <input type="checkbox" />ngoding
+      <input type="checkbox" />makan <input type="checkbox" />minum
+
+      <br />
+      <br />
+      <!--dropdown(select option)-->
+      <select name="city" id="city">
+        <option value="" disabled selected>pilih kotamu</option>
+        <option value="jakarta">jakarta</option>
+        <option value="bali">bali</option>
+        <option value="padang">padang</option>
+      </select>
+      <br />
+      <br />
+      <button type="button">submit</button>
+    </form>
+  </body>
+</html>
